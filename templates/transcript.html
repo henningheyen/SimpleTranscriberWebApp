@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Transcript</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        .container { max-width: 800px; margin-top: 20px; }
+        .transcript { white-space: pre-wrap; word-wrap: break-word; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center mb-4">Transcript</h1>
+        <div class="card">
+            <div class="card-body transcript">
+                {{ transcript }}
+            </div>
+        </div>
+        <a href="{{ url_for('download', filename=filename) }}" class="btn btn-primary mt-3">Download {{ chosen_format_name }}</a>
+        <a href="{{ url_for('index') }}" class="btn btn-secondary mt-3">Back</a>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
