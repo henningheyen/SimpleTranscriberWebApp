@@ -2,7 +2,7 @@
 
 A simple Flask web application to transcribe audio files to text using OpenAI's Whisper model.
 
-<img src="static/UI-1.png" alt="UI-1" width="300"/> <img src="static/UI-2.png" alt="UI-2" width="700"/>
+<img src="static/UI-1.png" alt="UI-1" width="300"/> <img src="static/UI-2.png" alt="UI-2" width="600"/>
 
 ## Features
 
