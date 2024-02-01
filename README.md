@@ -4,7 +4,7 @@ A simple web application to transcribe audio files to text using OpenAI's Whispe
 
 ## Motivation
 
-Good audio-to-text converters are expensive. Open AI released (Whisper AI)[https://github.com/openai/whisper] which is a state-of-the-art audio-to-text model. However, using Whisper requires some implementation. This repository aims to provide a coding-free state-of-the-art transcription tool free of charge.
+Good audio-to-text converters are expensive. Open AI released [Whisper AI](https://github.com/openai/whisper) which is a state-of-the-art audio-to-text model. However, using Whisper requires some implementation. This repository aims to provide a coding-free state-of-the-art transcription tool free of charge.
 
 <img src="static/UI-1.png" alt="UI-1" height="300"/> <img src="static/UI-2.png" alt="UI-2" height="300"/>
 
