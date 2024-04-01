@@ -14,6 +14,7 @@ Good audio-to-text converters are expensive. Open AI released [Whisper AI](https
 - Support for multiple audio or video formats (`flac`, `m4a`, `mp3`, `mp4`, `mpeg`, `mpga`, `oga`, `ogg`, `wav`, `webm`)
 - Option to download transcribed text in various formats: (`.txt`, `.docx`, `.pdf`, `.html`, `.json`)
 - Automatic language detection for transcription. Other Languages can be prespecified for faster transcription
+- Built-in translation. Just select your target language and the tool will translate the audio as well
 
 ### Installation
 
